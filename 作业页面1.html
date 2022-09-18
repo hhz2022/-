@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../logo2.png" type="image/x-icon">
+    <title>铃铛</title>
+    <style>
+        .middle_left{
+            width: 100%;
+            height: 600px;
+            overflow-y: auto;
+        }
+        .line_1{
+            width: 100%;
+            height: 400px;
+            background-color: rgba(255,255,255,0.3);
+            border-radius: 5px;
+        }
+        .list{
+            width: 25%;
+            height: 85%;
+            background-color: rgba(255,255,255,0.6);
+            margin-left: 5%;
+            margin-right: 2.5%;
+            margin-top: 2%;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        img{
+            width: 70%;
+            height: 70%;
+            border-radius: 5px;
+        }
+        .text{
+            width: -moz-fit-content;
+            height: 30px;
+            margin: auto;
+            text-align: center;
+            background-color: #ffffff;
+            line-height: 30px;
+        }
+        p{
+            text-align: center;
+
+        }
+        .menu{
+            font-size: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #333333;
+        }
+        .cost{
+            width: 40px;
+            height: 20px;
+            text-align: center;
+            border-radius: 5px;
+            line-height: 20px;
+            margin: auto;
+        }
+        .content{
+            font-size: 23px;
+            color: #ff4400;
+            font-family: "DejaVu Math TeX Gyre";
+            margin: auto;
+        }
+        .middle_right{
+            width: 15%;
+            height: 740px;
+            background-color: rgba(255,255,255,0.4);
+        }
+        button{
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        .hide{
+            display: none;
+        }
+        .c2{
+            border: #333333;
+            position: fixed;
+            width: 400px;
+            height: 300px;
+            top:50%;
+            left: 50%;
+            z-index: 3;
+            margin-top: -150px;
+            margin-left: -200px;
+            background-image: url("2.jpg");
+            text-align: center;
+            line-height: 20px;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        function func_show() {
+            document.getElementById("show").classList.remove("hide")
+        }
+        function func_hide() {
+            document.getElementById("show").classList.add("hide")
+        }
+        var i = 0;
+        function only(j){
+            i++;
+            if(i>=1&&j==1){
+                i=0;
+                document.getElementById("boys").checked = false;
+            }
+            else if(i>=1&&j==0){
+                i=0;
+                document.getElementById("girls").checked = false;
+            }
+        }
+    </script>
+
+</head>
+<body class="class_1" background="1.jpg">
+<div style="float: left;width: 85%;">
+    <div style="width: 100%;height: 100px;text-align: center;background-color: rgba(255,255,255,0.6);line-height: 100px">
+        <strong style="font-size: 40px">手办模型</strong>
+    </div>
+    <div class="middle_left" style="float: left">
+        <div class="line_1" >
+            <div class="list" style="float: left">
+                <img src="1.webp" width="200" height="200">
+                <div class="text">
+                    <p>手办</p>
+                </div>
+                <div class="cost">
+                    <br>
+                    <strong  class="content" >69$</strong>
+                </div>
+
+            </div>
+            <div class="list" style="float: left">
+                <img src="2.webp" width="200" height="200">
+                <div class="text">
+                    <p>手办</p>
+                </div>
+                <div class="cost">
+                    <br>
+                    <strong  class="content" >69$</strong>
+                </div>
+            </div>
+            <div class="list" style="float: left">
+                <img src="3.webp" width="200" height="200">
+                <div class="text">
+                    <p>手办</p>
+                </div>
+                <div class="cost">
+                    <br>
+                    <strong  class="content" >69$</strong>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="line_1" >
+            <div class="list" style="float: left">
+                <img src="4.webp" width="200" height="200">
+                <div class="text">
+                    <p>手办</p>
+                </div>
+                <div class="cost">
+                    <br>
+                    <strong  class="content" >69$</strong>
+                </div>
+            </div>
+            <div class="list" style="float: left">
+                <img src="5.webp" width="200" height="200">
+                <div class="text">
+                    <p>手办</p>
+                </div>
+                <div class="cost">
+                    <br>
+                    <strong  class="content" >69$</strong>
+                </div>
+            </div>
+            <div class="list" style="float: left">
+                <img src="6.webp" width="200" height="200">
+                <div class="text">
+                    <p>手办</p>
+                </div>
+                <div class="cost">
+                    <br>
+                    <strong  class="content" >69$</strong>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="line_1" >
+            <div class="list" style="float: left">
+                <img src="7.webp" width="200" height="200">
+                <div class="text">
+                    <p>手办</p>
+                </div>
+                <div class="cost">
+                    <br>
+                    <strong  class="content" >69$</strong>
+                </div>
+            </div>
+            <div class="list" style="float: left">
+                <img src="8.jpg" width="200" height="200">
+                <div class="text">
+                    <p>手办</p>
+                </div>
+                <div class="cost">
+                    <br>
+                    <strong  class="content" >69$</strong>
+                </div>
+            </div>
+            <div class="list" style="float: left">
+                <img src="9.png" width="200" height="200">
+                <div class="text">
+                    <p>手办</p>
+                </div>
+                <div class="cost">
+                    <br>
+                    <strong  class="content" >69$</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center">
+        <div>
+            <a style="color: #ffffff">版权著作：胡桁彰</a>
+        </div>
+        <button class="button_show" onclick="func_show()" style="color: #cccccc">点击注册</button>
+    </div>
+    <div class="hide c2" id="show">
+        <p>用户：<input type="text"  style="margin-top: 40px"/></p>
+        <p>密码：<input type="password" /></p>
+        <p>
+            <input id="boys" type="checkbox" name="gender" value="boy" onclick="only(0)"/>男
+            <input id="girls" type="checkbox" name="gender" value="girl" onclick="only(1)"/>女
+        </p>
+        <p>
+            职业：<select name="occupation" id="occupation" onchange="func_change">
+            <option value="教师">教师</option>
+            <option value="教师">工人</option>
+            <option value="教师">医生</option>
+            <option value="教师">消防员</option>
+        </select>
+        </p>
+        <p>
+            <input type="button" value="注册" onclick="func_hide()">
+            <input type="button" value="取消" onclick="func_hide()">
+        </p>
+    </div>
+</div>
+<div class="middle_right" style="float: right;text-align: center;line-height: 100px">
+    <br>
+    <div style="background-color: rgba(49,43,43,0.7);border-radius: 5px;">
+        <a class="menu" href="作业页面1.html">手办模型</a>
+    </div>
+    <br>
+    <div style="background-color: rgba(255,255,255,0.5);border-radius: 5px;">
+        <a class="menu" href="作业页面2.html">男鞋</a>
+    </div>
+    <br>
+    <div style="background-color: rgba(255,255,255,0.5);border-radius: 5px;">
+        <a class="menu" href="作业页面3.html" >汽车</a>
+    </div>
+</div>
+</body>
+</html>
